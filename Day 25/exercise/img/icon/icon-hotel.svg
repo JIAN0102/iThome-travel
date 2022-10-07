@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_78" data-name="Rectangle 78" width="40" height="40" transform="translate(580 -115)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-icon-hotel">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="icon-hotel" clip-path="url(#clip-icon-hotel)">
+    <g id="Mask_Group_17" data-name="Mask Group 17" transform="translate(-580 115)" clip-path="url(#clip-path)">
+      <g id="Group_85" data-name="Group 85">
+        <g id="Ellipse_45" data-name="Ellipse 45" transform="translate(588 -106)" fill="#ffaf34" stroke="#ffd167" stroke-width="1">
+          <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+          <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+        </g>
+        <g id="Ellipse_46" data-name="Ellipse 46" transform="translate(607 -106)" fill="#ffaf34" stroke="#ffd167" stroke-width="1">
+          <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+          <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+        </g>
+        <line id="Line_18" data-name="Line 18" y2="16" transform="translate(600.343 -112.657) rotate(-45)" fill="none" stroke="#ffaf34" stroke-width="1"/>
+        <line id="Line_19" data-name="Line 19" y2="16" transform="translate(599.657 -112.657) rotate(45)" fill="none" stroke="#ffaf34" stroke-width="1"/>
+        <g id="Rectangle_76" data-name="Rectangle 76" transform="translate(583 -104)" fill="#ffaf34" stroke="#ffd167" stroke-width="2">
+          <rect width="34" height="26" rx="4" stroke="none"/>
+          <rect x="1" y="1" width="32" height="24" rx="3" fill="none"/>
+        </g>
+        <text id="HOS_TEL" data-name="HOS
+TEL" transform="translate(600 -92)" fill="#fff" font-size="10" font-family="Barlow-Medium, Barlow" font-weight="500" letter-spacing="0.1em"><tspan x="-10.275" y="0">HOS</tspan><tspan x="-9.71" y="9">TEL</tspan></text>
+        <circle id="Ellipse_47" data-name="Ellipse 47" cx="2" cy="2" r="2" transform="translate(598 -115)" fill="#ffaf34"/>
+      </g>
+    </g>
+  </g>
+</svg>
