@@ -130,6 +130,54 @@
           </li>
         </ul>
       </nav>
+
+      <div class="px:20">
+        <div class="rel h:400 p:60|20|0 r:6 overflow:hidden {h:300;px:0}@md">
+          <picture>
+            <source
+              srcset="img/layout/banner-desktop.svg"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="img/layout/banner-tablet.svg"
+              media="(min-width: 600px)"
+            />
+            <img
+              class="abs top:0 left:0 z:-1 full obj:cover"
+              src="img/layout/banner-mobile.svg"
+              alt=""
+            />
+          </picture>
+          <div class="mx:auto max-w:360@xs max-w:1/2@md">
+            <h1 class="f:32 f:medium f:white t:center f:40@md">
+              <span class="f:primary">探索</span> 想去的地方
+            </h1>
+            <div class="grid-cols:1 gap:20 mt:20 grid-cols:2@md">
+              <div class="rel">
+                <input
+                  class="block w:full h:48 pr:48 pl:16 bg:white r:4 shadow:0|10|20|black/.1 outline:0 f:fade-40::placeholder"
+                  type="text"
+                  placeholder="搜尋關鍵字"
+                />
+                <button
+                  class="abs top:1/2 right:8 translateY(-50%) w:32 h:32 bg:linear-gradient(primary,secondary) r:4"
+                  type="button"
+                ></button>
+              </div>
+              <div class="rel">
+                <select
+                  class="block w:full h:48 px:16 bg:white r:4 shadow:0|10|20|black/.1 outline:0 appearance:none f:fade-40::placeholder"
+                >
+                  <option value="0">不分縣市</option>
+                </select>
+                <span
+                  class="abs top:1/2 right:16 translateY(-50%) w:0 h:0 bt:8 bx:5 border-color:transparent bt:fade-10"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
