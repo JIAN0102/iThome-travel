@@ -155,12 +155,12 @@
             <div class="grid-cols:1 gap:20 mt:20 grid-cols:2@md">
               <div class="rel">
                 <input
-                  class="block w:full h:48 pr:48 pl:16 f:fade-30 bg:white r:4 shadow:0|10|20|black/.1 outline:4|solid|primary:focus f:fade-40::placeholder"
+                  class="block w:full h:48 pr:48 pl:16 f:fade-30 bg:white r:4 shadow:0|10|20|black/.1 outline:0 f:fade-40::placeholder"
                   type="text"
                   placeholder="搜尋關鍵字"
                 />
                 <button
-                  class="abs top:1/2 right:8 translateY(-50%) flex center-content w:32 h:32 bg:linear-gradient(primary,secondary) r:4 outline:2|solid|secondary:hover"
+                  class="abs top:1/2 right:8 translateY(-50%) flex center-content w:32 h:32 bg:linear-gradient(primary,secondary) r:4"
                   type="button"
                 >
                   <svg
@@ -175,17 +175,15 @@
                   </svg>
                 </button>
               </div>
-              <div
-                class="rel {content:'';abs;top:1/2;right:16;translateY(-50%);w:0;h:0;border-width:8|5|0;border-style:solid;border-color:fade-30|transparent|transparent}::before"
-              >
+              <div class="rel">
                 <select
-                  class="block w:full h:48 pr:48 pl:16 f:fade-30 bg:white r:4 shadow:0|10|20|black/.1 appearance:none outline:4|solid|primary:focus"
+                  class="block w:full h:48 pr:48 pl:16 f:fade-30 bg:white r:4 shadow:0|10|20|black/.1 outline:0 appearance:none"
                 >
-                  <option value="all">不分縣市</option>
-                  <option value="taipei">臺北市</option>
-                  <option value="taichung">臺中市</option>
-                  <option value="kaohsiung">高雄市</option>
+                  <option value="0">不分縣市</option>
                 </select>
+                <span
+                  class="abs top:1/2 right:16 translateY(-50%) w:0 h:0 bt:8 bx:5 border-color:transparent bt:fade-30"
+                ></span>
               </div>
             </div>
           </div>
